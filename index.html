@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy Picture of the Day</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Astronomy Picture of the Day</h1>
+        <h4>Explore the cosmos daily through captivating images and expert explanations!</h4>
+    </div>
+    <hr class="separator">
+    <div class="main-content">
+        <div class="box_1">
+            <h2>Search APOD by Date (YYYY-MM-DD):</h2>
+            <div class="search-input">
+                <input type="text" id="date-input" placeholder="e.g. 2000-04-27">
+                <button id="search-button">Submit</button>
+            </div>
+        </div>
+        <div class="box_2">
+            <img id="apod-image" src="" alt="Astronomy Picture of the Day">
+                <!-- APOD image will be displayed here -->
+            <h2 id="apod-title"></h2>
+                <!-- title of APOD image will be displayed here -->
+            <p id="apod-description"></p>
+                <!-- description of APOD image will be displayed here -->
+            <button id="favourite-button">❤</button>
+        </div>
+        <div class="favourites">
+            <h2>Favourites</h2>
+            <div class="image-gallery" id="favourites-gallery">
+                <!-- favourite images will be added here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
