@@ -14,3 +14,10 @@
 ## https://www.google.com/
 ## https://www.w3schools.com/
 ## https://developer.mozilla.org/en-US/
+
+# Final Design Report
+# The project started with a mobile-first webpage using HTML and responsive CSS. JavaScript is used for fetching APOD data from NASA's APOD API, dynamically updating the content. Challenges included ensuring dynamic content updates, optimising JavaScript, and handling JavaScript fucntions, especially with fetching data from the API.
+# Resources used: 
+## https://www.google.com/
+## https://developer.mozilla.org/en-US/docs/Web/JavaScript
+## NASA APOD API(https://api.nasa.gov/) for retrieving Astronomy Pictures of the Day.
